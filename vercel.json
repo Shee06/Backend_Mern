@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "buildCommand": "next build",
+    "buildCommand": "npm run build",
     "build": [
         {
             "src": "*.js",
@@ -13,5 +13,4 @@
             "dest": "/"
         }
     ],
-    "command": "npm run build"
 }
