@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000','https://sinhsportal.vercel.app'],
     optionsSuccessStatus: 200 
   }
 // middleware
