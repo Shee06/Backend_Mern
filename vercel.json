@@ -12,5 +12,6 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+    "command": "npm run build"
 }
